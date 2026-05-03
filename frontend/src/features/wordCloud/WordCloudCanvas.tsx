@@ -141,6 +141,7 @@ interface WordNodeProps {
   total: number;
 }
 
+// Init the actual nodes the words will follow
 function WordNode({ topic, orbitRadius, speed, phaseOffset, wobbleAmp, wobbleFreq, orbitTilt, index, total }: WordNodeProps) {
   const groupRef = useRef<THREE.Group>(null!);
   const meshRef  = useRef<THREE.Mesh>(null!);
@@ -240,6 +241,7 @@ function Particles({ count = 110 }) {
   const ref = useRef<THREE.Points>(null!);
   const geo = useMemo(() => {
     const g = new THREE.BufferGeometry();
+    // Actually some pretty cool math here. Took me a bit
     const pos = new Float32Array(count * 3);
     for (let i = 0; i < count; i++) {
       const radius = 4 + Math.abs(Math.sin(i * 91.3)) * 4;
