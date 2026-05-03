@@ -52,7 +52,35 @@ To avoid environment issues, use:
 ```txt id="2j9c3x"
 root/
 ├── backend/
+├──── api/
+├────── routes.py
+├──── models/
+├────── request.py
+├────── response.py
+├──── pipeline/
+├────── analyze_pipeline.py
+├──── services/
+├────── analyzer.py
+├────── cleaner.py
+├────── crawler.py
+├──── main.py
+├──── requirements.txt
+
 ├── frontend/
+├──── src/
+├────── assets/
+├────── features/
+├──────── wordCloud/
+├────────── WordCloudCanvas.tsx
+├────── hooks/
+├──────── useAnalyze.ts
+├────── pages/
+├──────── Home.tsx
+├────── App.css
+├────── App.tsx
+├────── index.css
+├────── main.tsx
+├────── mockData.ts
 ├── setup.sh
 ├── setup.bat
 └── README.md
