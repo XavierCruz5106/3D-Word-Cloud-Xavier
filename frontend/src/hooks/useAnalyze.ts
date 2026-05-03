@@ -2,7 +2,7 @@ import { useState } from "react";
 import { MOCK_RESULTS, type AnalysisResult } from "../mockData";
 
 const REPLACE_WITH_REAL_API = true;
-const API_BASE_URL = "/_/backend";
+const API_BASE_URL = "/backend";
 
 const MOCK_DELAY_MS = 1800;
 
