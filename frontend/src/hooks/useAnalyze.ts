@@ -2,10 +2,9 @@ import { useState } from "react";
 import { MOCK_RESULTS, type AnalysisResult } from "../mockData";
 
 const REPLACE_WITH_REAL_API = true;
-// Dont want to use api proxies
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "/_/backend";
 
-const MOCK_DELAY_MS = 1800; // simulates network latency
+const MOCK_DELAY_MS = 1800;
 
 export function useAnalyze() {
   const [data, setData] = useState<AnalysisResult | null>(null);
