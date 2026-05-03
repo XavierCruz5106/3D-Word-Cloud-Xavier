@@ -223,10 +223,6 @@ function Nucleus() {
         <MeshDistortMaterial color="#e0d0ff" transparent opacity={0.27}
           distort={0.22} speed={2.0} roughness={0} metalness={0.9} envMapIntensity={3.5} />
       </Sphere>
-      <Sphere args={[0.17, 16, 16]}>
-        <meshStandardMaterial color="#ffffff" emissive="#d0b8ff" emissiveIntensity={2.2}
-          roughness={0} metalness={1} />
-      </Sphere>
       {[1.3, 1.95, 2.65].map((r, i) => (
         <mesh key={i} rotation={[Math.PI / 2 + i * 0.4, i * 0.7, i * 0.3]}>
           <torusGeometry args={[r, 0.005, 6, 80]} />
