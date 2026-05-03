@@ -17,7 +17,7 @@ A full-stack app that takes an article URL, extracts the text, and turns it into
 ### Analysis View
 
 <!-- Add screenshot here -->
-![Analysis View](./frontend/src/assets/analysis.png)
+![Analysis View](./frontend/src/assets/Analysis.png)
 
 ---
 
