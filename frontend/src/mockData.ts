@@ -40,8 +40,8 @@ export const MOCK_RESULTS: Record<string, AnalysisResult> = {
 };
 
 export const SAMPLE_URLS = [
-  "https://www.bbc.com/news/articles/c9dl90lg91do",
-  "https://techcrunch.com/2025/04/15/ai-regulation-2025/",
+  "https://www.bbc.com/news/articles/c242pzr1zp2o",
+  "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
   "https://www.theverge.com/ai-artificial-intelligence",
-  "https://www.wired.com/story/what-is-artificial-intelligence/",
+  "https://www.wired.com/story/when-robots-have-their-chatgpt-moment-remember-these-pincers/",
 ];
