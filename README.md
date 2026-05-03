@@ -11,14 +11,13 @@ A full-stack app that takes an article URL, extracts the text, and turns it into
 <!-- Add screenshot here -->
 
 <!-- ![Home Page](./assets/home.png) -->
-
+![Home Page](./frontend/src/assets/Home.png)
 ---
 
 ### Analysis View
 
 <!-- Add screenshot here -->
-
-<!-- ![Analysis View](./assets/analysis.png) -->
+![Analysis View](./frontend/src/assets/analysis.png)
 
 ---
 
