@@ -42,7 +42,7 @@ export default function Home() {
                 <ellipse cx="20" cy="20" rx="18" ry="6" stroke="rgba(168,216,255,0.25)" strokeWidth="1" transform="rotate(-30 20 20)" />
               </svg>
             </div>
-            <h1 className="logo-title">Sparrow</h1>
+            <h1 className="logo-title">Buzzfinder</h1>
             <p className="logo-sub">Article Topic Visualizer</p>
           </div>
 
